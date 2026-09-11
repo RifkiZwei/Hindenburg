@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('title','Tambah Buku') @section('content')<div class="topbar"><h1>Tambah buku</h1><a class="button secondary" href="{{ route('buku.index') }}">Kembali</a></div>@include('buku.form',['buku'=>null])@endsection

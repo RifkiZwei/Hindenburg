@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('title','Edit Member') @section('content')<div class="topbar"><h1>Edit member</h1><a class="button secondary" href="{{ route('members.show',$member) }}">Batal</a></div>@include('members.form',['member'=>$member])@endsection
